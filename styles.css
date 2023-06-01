@@ -29,33 +29,11 @@ body {
 }
 
 /* header section */
-.statusbar,
 .logo-hamburger {
   display: flex;
   justify-content: space-between;
   width: 375px;
   height: 44px;
-}
-
-.time {
-  position: absolute;
-  width: 54px;
-  height: 21px;
-  top: 14.5px;
-  left: 21px;
-}
-
-.bars {
-  position: absolute;
-  width: 66.66px;
-  height: 11.34px;
-  top: 17.33px;
-  left: 293.67px;
-  display: flex;
-}
-
-.bars img {
-  flex-grow: 1;
 }
 
 /* logo-hamburger section */
@@ -86,12 +64,14 @@ body {
 
 /* section 2: headline */
 .headline {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 92px;
+  top: 44px;
   width: 375px;
   height: 100%;
   background: url("./media/backgroundfill.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -106,10 +86,9 @@ body {
 
 /* primary text */
 .primary {
-  top: 108px;
+  top: 90px;
   height: 211px;
-  font-weight: 700;
-  font-size: 40px;
+  font-size: 34px;
   line-height: 52px;
   color: #172b4d;
 }
@@ -120,22 +99,25 @@ body {
 
 /* secondary text */
 .secondary {
-  top: 334px;
+  top: 360px;
   height: 164px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
 
 /* socials */
-.socials {
+.socials ul{
   position: absolute;
   width: 170.17px;
   height: 19.62px;
   left: 105px;
-  top: 520.89px;
+  top: 568.89px;
   display: flex;
   justify-content: space-between;
+}
+
+.socials li {
+  list-style-type: none;
 }
 
 .social-item {
@@ -166,10 +148,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
-
-  .statusbar {
-    display: none;
   }
 
   .primary,
