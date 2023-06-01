@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  /* background: #E5E5E5; */
+  font-family: 'Inter', sans-serif;
+}
+
+/* layout for smaller screens. breakpoint: 375px */
+.wrapper {
+  width: 375px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  height: 92px;
+  position: fixed;
+}
+
+/* header section */
+.statusbar,
+.logo-hamburger {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  height: 44px;
+}
+
+.time {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 14.5px;
+  left: 21px;
+}
+
+.bars {
+  position: absolute;
+  width: 66.66px;
+  height: 11.34px;
+  top: 17.33px;
+  left: 293.67px;
+  display: flex;
+}
+
+.bars img {
+  flex-grow: 1;
+}
+
+/* logo-hamburger section */
+.logo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #172b4d;
+  left: 14px;
+  border: 1px solid #36b37e;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+.hamburger {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  right: 24px;
+}
+
+/* section 2: headline */
+.headline {
+  position: absolute;
+  top: 92px;
+  width: 375px;
+  height: 100%;
+  background: url("./media/backgroundfill.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text {
+  position: absolute;
+  width: 327px;
+  left: 27px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+/* primary text */
+.primary {
+  top: 108px;
+  height: 211px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+#green {
+  color: #36b37e;
+}
+
+/* secondary text */
+.secondary {
+  top: 334px;
+  height: 164px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* socials */
+.socials {
+  position: absolute;
+  width: 170.17px;
+  height: 19.62px;
+  left: 105px;
+  top: 520.89px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-item {
+  width: 20px;
+  height: 20px;
+  top: 8.96%;
+  bottom: 90.73%;
+}
+
+/* breakpoint at 768px */
+@media (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  .headline {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .statusbar {
+    display: none;
+  }
+
+  .primary,
+  .secondary {
+    width: 100%;
+  }
+
+  .secondary {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .socials {
+    position: absolute;
+    left: 45%;
+  }
+
+  .social-item {
+    width: 26px;
+    height: 26px;
+  }
+}
