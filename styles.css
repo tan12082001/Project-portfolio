@@ -24,7 +24,7 @@ body {
 .toolbar {
   display: flex;
   flex-direction: column;
-  height: 92px;
+  height: 44px;
   position: fixed;
 }
 
@@ -88,20 +88,27 @@ body {
 .primary {
   top: 90px;
   height: 211px;
-  font-size: 34px;
   line-height: 52px;
   color: #172b4d;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 #green {
   color: #36b37e;
+  font-size: 38px;
 }
 
 /* secondary text */
 .secondary {
-  top: 360px;
+  top: 310px;
   height: 164px;
   font-size: 20px;
+  font-weight: 400;
   line-height: 28px;
 }
 
@@ -111,7 +118,7 @@ body {
   width: 170.17px;
   height: 19.62px;
   left: 105px;
-  top: 568.89px;
+  top: 500.89px;
   display: flex;
   justify-content: space-between;
 }
