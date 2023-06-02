@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  /* background: #E5E5E5; */
+  font-family: 'Inter', sans-serif;
+}
+
+/* layout for smaller screens. breakpoint: 375px */
+.wrapper {
+  width: 375px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  height: 44px;
+  position: fixed;
+}
+
+/* header section */
+.logo-hamburger {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  height: 44px;
+}
+
+/* logo-hamburger section */
+.logo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #172b4d;
+  left: 14px;
+  border: 1px solid #36b37e;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+.hamburger {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  right: 24px;
+}
+
+/* section 2: headline */
+.headline {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 44px;
+  width: 375px;
+  height: 100%;
+  background: url("./media/backgroundfill.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text {
+  position: absolute;
+  width: 327px;
+  left: 27px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+/* primary text */
+.primary {
+  top: 90px;
+  height: 211px;
+  line-height: 52px;
+  color: #172b4d;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#green {
+  color: #36b37e;
+  font-size: 38px;
+}
+
+/* secondary text */
+.secondary {
+  top: 310px;
+  height: 164px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* socials */
+.socials ul {
+  position: absolute;
+  width: 170.17px;
+  height: 19.62px;
+  left: 105px;
+  top: 500.89px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials li {
+  list-style-type: none;
+}
+
+.social-item {
+  width: 20px;
+  height: 20px;
+  top: 8.96%;
+  bottom: 90.73%;
+}
+
+/* breakpoint at 768px */
+@media (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  .headline {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .primary,
+  .secondary {
+    width: 100%;
+  }
+
+  .secondary {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .socials {
+    position: absolute;
+    left: 45%;
+  }
+
+  .social-item {
+    width: 26px;
+    height: 26px;
+  }
+}
