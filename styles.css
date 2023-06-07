@@ -463,6 +463,8 @@ h1 {
   gap: 24px;
   width: 327px;
   height: 363px;
+  font-size: 40px;
+  color: #172b4d;
 }
 
 .form-outline {
@@ -470,35 +472,15 @@ h1 {
   height: 330px;
 }
 
-.contactme-ul {
-  list-style-type: none;
+form {
   display: flex;
   flex-direction: column;
+  gap: 24px;
   justify-content: center;
   align-items: center;
-  gap: 24px;
-  width: 327px;
-  height: 330px;
 }
 
-.contactme-ul li {
-  width: 327px;
-}
-
-input {
-  width: 327px;
-  height: 48px;
-  border-radius: 4px;
-  border: 1px solid #6b778c;
-}
-
-.email {
-  flex: none;
-  order: 1;
-}
-
-.name ::placeholder,
-.email ::placeholder {
+::placeholder {
   width: 295px;
   height: 18px;
   position: absolute;
@@ -511,11 +493,11 @@ input {
   font-style: italic;
 }
 
-.message {
+input {
   width: 327px;
-  height: 114px;
-  flex: none;
-  order: 2;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #6b778c;
 }
 
 textarea {
@@ -525,7 +507,7 @@ textarea {
   border-radius: 4px;
 }
 
-.message ::placeholder {
+textarea ::placeholder {
   width: 303px;
   height: 90px;
   position: absolute;
@@ -538,14 +520,6 @@ textarea {
   color: #42526e;
 }
 
-.submit-button {
-  flex: none;
-  order: 3;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
 #submitbutton {
   width: 129px;
   height: 48px;
@@ -556,6 +530,7 @@ textarea {
   border: none;
   color: #fff;
   font-size: 17px;
+  text-align: center;
 }
 
 .email-div {
