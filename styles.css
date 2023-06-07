@@ -538,6 +538,69 @@ textarea {
   color: #42526e;
 }
 
+.submit-button {
+  flex: none;
+  order: 3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#submitbutton {
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  flex: none;
+  order: 3;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.email-div {
+  width: 327px;
+  height: 38px;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+
+/* footer section */
+.footerbar {
+  width: 375px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6240px;
+}
+
+.footer-socials {
+  width: 375px;
+  height: 48px;
+}
+
+.footer-socials ul {
+  position: absolute;
+  width: 170.17px;
+  height: 19.62px;
+  left: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-socials li {
+  list-style-type: none;
+}
+
 /* breakpoint at 768px */
 @media (min-width: 768px) {
   .wrapper {
