@@ -147,6 +147,7 @@ h1 {
   justify-content: center;
 }
 
+/* works section */
 .works {
   position: absolute;
   width: 375px;
@@ -290,6 +291,7 @@ h1 {
   text-decoration: none;
 }
 
+/* about me section */
 .about-me {
   width: 375px;
   height: 100%;
@@ -438,6 +440,8 @@ h1 {
   width: 293px;
   height: 88px;
 }
+
+/* contact me section */
 
 /* breakpoint at 768px */
 @media (min-width: 768px) {
