@@ -442,6 +442,101 @@ h1 {
 }
 
 /* contact me section */
+.contact-me {
+  width: 375px;
+  height: 879px;
+  position: absolute;
+  top: 5374px;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 24px;
+  gap: 38px;
+  background: url('./media/illustration-contact-form.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.contactme-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  height: 363px;
+}
+
+.form-outline {
+  width: 327px;
+  height: 330px;
+}
+
+.contactme-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+}
+
+.contactme-ul li {
+  width: 327px;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #6b778c;
+}
+
+.email {
+  flex: none;
+  order: 1;
+}
+
+.name ::placeholder,
+.email ::placeholder {
+  width: 295px;
+  height: 18px;
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #6b778c;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+}
+
+.message {
+  width: 327px;
+  height: 114px;
+  flex: none;
+  order: 2;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  border: 1px solid #36b37f;
+  border-radius: 4px;
+}
+
+.message ::placeholder {
+  width: 303px;
+  height: 90px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #42526e;
+}
 
 /* breakpoint at 768px */
 @media (min-width: 768px) {
