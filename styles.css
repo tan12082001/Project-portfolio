@@ -147,6 +147,7 @@ h1 {
   justify-content: center;
 }
 
+/* works section */
 .works {
   position: absolute;
   width: 375px;
@@ -290,6 +291,7 @@ h1 {
   text-decoration: none;
 }
 
+/* about me section */
 .about-me {
   width: 375px;
   height: 100%;
@@ -437,6 +439,141 @@ h1 {
 .skills {
   width: 293px;
   height: 88px;
+}
+
+/* contact me section */
+.contact-me {
+  width: 375px;
+  height: 879px;
+  position: absolute;
+  top: 5374px;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 24px;
+  gap: 38px;
+  background: url('./media/illustration-contact-form.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.contactme-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  height: 363px;
+  font-size: 40px;
+  color: #172b4d;
+}
+
+.form-outline {
+  width: 327px;
+  height: 330px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  width: 295px;
+  height: 18px;
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #6b778c;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #6b778c;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  border: 1px solid #36b37f;
+  border-radius: 4px;
+}
+
+textarea ::placeholder {
+  width: 303px;
+  height: 90px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #42526e;
+}
+
+#submitbutton {
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  flex: none;
+  order: 3;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  text-align: center;
+}
+
+.email-div {
+  width: 327px;
+  height: 38px;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+
+/* footer section */
+.footerbar {
+  width: 375px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6240px;
+}
+
+.footer-socials {
+  width: 375px;
+  height: 48px;
+}
+
+.footer-socials ul {
+  position: absolute;
+  width: 170.17px;
+  height: 19.62px;
+  left: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-socials li {
+  list-style-type: none;
 }
 
 /* breakpoint at 768px */

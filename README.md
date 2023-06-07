@@ -101,12 +101,15 @@ To run the project, if you are using a Code Editor make use of live server.
 - Twitter: [@TanmayiManku](https://twitter.com/TanmayiManku)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tanmayi-manku-99195720a/)
 
+👤 **Faiz Mohammad**
+
+- GitHub: [@the-faizmohammad](https://github.com/the-faizmohammad)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-https://www.linkedin.com/in/tanmayi-manku-99195720a/
 - [ ] **Upcoming Project features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
