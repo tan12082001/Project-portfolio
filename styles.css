@@ -507,7 +507,7 @@ textarea {
   border-radius: 4px;
 }
 
-textarea ::placeholder {
+textarea::placeholder {
   width: 303px;
   height: 90px;
   position: absolute;
