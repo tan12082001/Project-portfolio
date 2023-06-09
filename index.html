@@ -10,260 +10,284 @@
 <body>
     <!--Outer div consists toolbar and headline-->
     <div class="wrapper">
-        <!--section one toolbar-->
-        <header class="toolbar">
-          <nav class="logo-hamburger">
-            <a href='#' class="logo"><span>T</span></a>
-            <a href='#' class="hamburger"><img src="./media/hamburger.png" alt="menu"></a>
-          </nav>
-        </header>
-        <!--section two headline-->
-        <section class="headline">
-          <div class="primary text">
-            <h1>Hey there.<br>
-                I'm Tanmayi.
-            </h1>
-            <h2 id="green">I'm a software developer</h2>
-          </div>
-          <div class="secondary text">
-            <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don't hesitate to contact me.</p>
-          </div>
-          <!--div for social links-->
-          <div class="socials">
-            <ul>
-              <li><a class='social-item' href='https://twitter.com/TanmayiManku' target="_blank" rel="noopener"><img src="./media/twitter.svg" alt="twitter"></a></li>
-              <li><a class='social-item' href='https://www.linkedin.com/in/tanmayi-manku-99195720a/' target="_blank" rel="noopener"><img src="./media/Linkedinicon.svg" alt="linkedin"></a></li>
-              <li><a class='social-item' href='https://medium.com/' target="_blank" rel="noopener"><img src="./media/medium.svg" alt="medium"></a></li>
-              <li><a class='social-item' href='https://github.com/tan12082001' target="_blank" rel="noopener"><img src="./media/github.svg" alt="github"></a></li>
-              <li><a class='social-item' href='#' rel="noopener"><img src="./media/angellist.svg" alt="angellist"></a></li>
-            </ul>   
-          </div>
-        </section>
-        <section class="down-action">
-            <a href="#" ><img src='./media/Disabled.svg' alt='drop-down'></a>
-        </section>
-        <!--my recent works section-->
-        <section class="works">
-            <div class="works-container">
-                <div class="works-title">
-                  <h1>My Recent Works</h1>
-                  <hr>
-                </div>
-                <div class="works-grid">
-                    <!--card one-->
-                    <div class="works-item">
-                        <div class="card-img">
-                            <div class="card-detail">
-                                <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
-                                <div class="lang-list">
-                                    <ul>
-                                        <li><a>Ruby on rails</a></li>
-                                        <li><a>CSS</a></li>
-                                        <li><a>JavaScript</a></li>
-                                        <li><a>HTML</a></li>
-                                    </ul>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#" target="_blank" rel="noopener">See Project</a>
-                                </div>
-                            </div>
-                        </div>
+        <div class="main-background">
+            <!--section one toolbar-->
+            <header class="toolbar">
+                <nav class="logo-hamburger">
+                <a href='#' class="logo"><span>T</span></a>
+                <a href='#' class="hamburger"><img src="./media/hamburger.png" alt="menu"></a>
+                </nav>
+                <nav class="desk-navbar">
+                <ul class="navbarlist">
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                </nav>
+            </header>
+            <div class="desk-headline">
+                <!--section two headline-->
+                <section class="headline">
+                    <div class="primary text">
+                        <h1>Hey there.<br class="breakline">
+                            I'm Tanmayi.
+                        </h1>
+                        <h2 id="green">I'm a software developer</h2>
                     </div>
-                    <!--card two-->
-                    <div class="works-item">
-                        <div class="card-img">
-                            <div class="card-detail">
-                                <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
-                                <div class="lang-list">
-                                    <ul>
-                                        <li><a>Ruby on rails</a></li>
-                                        <li><a>CSS</a></li>
-                                        <li><a>JavaScript</a></li>
-                                        <li><a>HTML</a></li>
-                                    </ul>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#" target="_blank" rel="noopener">See Project</a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="secondary text">
+                        <p> I can help you build a product , feature or website Look through some of my work and<br class="sentence-break"> experience! If you like what you see and have a project you need coded,<br class="sentence-break"> 
+                            don't hesitate to contact me.</p>
                     </div>
-                    <!--card three-->
-                    <div class="works-item">
-                        <div class="card-img"><div class="card-detail">
-                            <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
-                            <div class="lang-list">
-                                <ul>
-                                    <li><a>Ruby on rails</a></li>
-                                    <li><a>CSS</a></li>
-                                    <li><a>JavaScript</a></li>
-                                    <li><a>HTML</a></li>
-                                </ul>
-                            </div>
-                            <div class="card-button">
-                                <a href="#" target="_blank" rel="noopener">See Project</a>
-                            </div>
-                        </div>
+                    <!--div for social links-->
+                    <div class="socials">
+                        <ul>
+                            <li><a class='social-item' id='one' href='https://twitter.com/TanmayiManku' target="_blank" rel="noopener"><img src="./media/twitter.svg" alt="twitter"></a></li>
+                            <li><a class='social-item' id='two' href='https://www.linkedin.com/in/tanmayi-manku-99195720a/' target="_blank" rel="noopener"><img src="./media/Linkedinicon.svg" alt="linkedin"></a></li>
+                            <li><a class='social-item' id='three' href='https://medium.com/' target="_blank" rel="noopener"><img src="./media/medium.svg" alt="medium"></a></li>
+                            <li><a class='social-item' id='four' href='https://github.com/tan12082001' target="_blank" rel="noopener"><img src="./media/github.svg" alt="github"></a></li>
+                            <li><a class='social-item' id='five' href='#' rel="noopener"><img src="./media/angellist.svg" alt="angellist"></a></li>
+                        </ul>   
                     </div>
-                    </div>
-                    <!--card four-->
-                    <div class="works-item">
-                        <div class="card-img">
-                            <div class="card-detail">
-                                <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
-                                <div class="lang-list">
-                                    <ul>
-                                        <li><a>Ruby on rails</a></li>
-                                        <li><a>CSS</a></li>
-                                        <li><a>JavaScript</a></li>
-                                        <li><a>HTML</a></li>
-                                    </ul>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#" target="_blank" rel="noopener">See Project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--card five-->
-                    <div class="works-item">
-                        <div class="card-img">
-                            <div class="card-detail">
-                                <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
-                                <div class="lang-list">
-                                    <ul>
-                                        <li><a>Ruby on rails</a></li>
-                                        <li><a>CSS</a></li>
-                                        <li><a>JavaScript</a></li>
-                                        <li><a>HTML</a></li>
-                                    </ul>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#" target="_blank" rel="noopener">See Project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--card six-->
-                    <div class="works-item">
-                        <div class="card-img">
-                            <div class="card-detail">
-                                <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
-                                <div class="lang-list">
-                                    <ul>
-                                        <li><a>Ruby on rails</a></li>
-                                        <li><a>CSS</a></li>
-                                        <li><a>JavaScript</a></li>
-                                        <li><a>HTML</a></li>
-                                    </ul>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#" target="_blank" rel="noopener">See Project</a>
-                                </div>
-                            </div>
-                        </div>    
-                    </div>
-                </div>
+                </section>
+                <section class="down-action">
+                    <a href="#portfolio" ><img src='./media/Disabled.svg' alt='drop-down'></a>
+                </section>
             </div>
-        </section>
-        <!--about me section-->
-        <section class="about-me">
-            <div class="aboutme-container">
-                <div class="aboutme-title">
-                    <h1>About me</h1>
-                    <div class="aboutme-text">
-                        <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                            don't hesitate to contact me.
-                        </p>
+        </div>
+        
+        <!--works, about me and contact me div -->
+        
+        <div class="works-about-contact">
+
+            <!--my recent works section-->
+            <section class="works" id="portfolio">
+                <div class="works-container">
+                    <div class="works-title">
+                    <h1>My Recent Works</h1>
+                    <hr>
                     </div>
-                    <a class='resume' href="#">Get my Resume</a>
-                </div>
-                <div class="aboutme-grid">
-                    <ul class="aboutmeoutline">
-                        <!--languages card-->                        
-                        <li class="aboutitem">
-                            <div class="aboutme-item">
-                                <div class="item-head">
-                                    <img src="./media/languages-icon.svg" alt="languages-icon">
-                                </div>
-                                <div class="title-tags">
-                                    <h4>Languages</h4>
-                                    <div class="tags">
+                    <div class="works-grid">
+                        <!--card one-->
+                        <div class="works-item">
+                            <div class="card-img">
+                                <div class="card-detail">
+                                    <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
+                                    <div class="lang-list">
                                         <ul>
-                                            <li>Javascript</li>
-                                            <li>Ruby</li>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
+                                            <li><a>Ruby on rails</a></li>
+                                            <li><a>CSS</a></li>
+                                            <li><a>JavaScript</a></li>
+                                            <li><a>HTML</a></li>
                                         </ul>
+                                    </div>
+                                    <div class="card-button">
+                                        <a href="#" target="_blank" rel="noopener">See Project</a>
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <!--Frameworks card-->
-                        <li class="aboutitem">
-                            <div class="aboutme-item">
-                                <div class="item-head">
-                                    <img src="./media/frameworks-img.png" alt="frameworks-icon">
-                                </div>
-                                <div class="title-tags">
-                                    <h4>Frameworks</h4>
-                                    <div class="tags">
+                        </div>
+                        <!--card two-->
+                        <div class="works-item">
+                            <div class="card-img">
+                                <div class="card-detail">
+                                    <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
+                                    <div class="lang-list">
                                         <ul>
-                                            <li>React.js</li>
-                                            <li>Ruby on Rails</li>
-                                            <li>RSpec</li>
-                                            <li>Capybara</li>
-                                            <li>Selenium</li>
+                                            <li><a>Ruby on rails</a></li>
+                                            <li><a>CSS</a></li>
+                                            <li><a>JavaScript</a></li>
+                                            <li><a>HTML</a></li>
                                         </ul>
+                                    </div>
+                                    <div class="card-button">
+                                        <a href="#" target="_blank" rel="noopener">See Project</a>
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <!--Skills card-->
-                        <li class="aboutitem">
-                            <div class="aboutme-item">
-                                <div class="item-head">
-                                    <img src="./media/skills-img.png" alt="skills-icon">
+                        </div>
+                        <!--card three-->
+                        <div class="works-item">
+                            <div class="card-img"><div class="card-detail">
+                                <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
+                                <div class="lang-list">
+                                    <ul>
+                                        <li><a>Ruby on rails</a></li>
+                                        <li><a>CSS</a></li>
+                                        <li><a>JavaScript</a></li>
+                                        <li><a>HTML</a></li>
+                                    </ul>
                                 </div>
-                                <div class="title-tags">
-                                    <h4>Skills</h4>
-                                    <div class="tags skills">
+                                <div class="card-button">
+                                    <a href="#" target="_blank" rel="noopener">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!--card four-->
+                        <div class="works-item">
+                            <div class="card-img">
+                                <div class="card-detail">
+                                    <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
+                                    <div class="lang-list">
                                         <ul>
-                                            <li>Database Management</li>
-                                            <li>Version Control</li>
-                                            <li>CLI</li>
-                                            <li>Web Development</li>
-                                            <li>API Design</li>
+                                            <li><a>Ruby on rails</a></li>
+                                            <li><a>CSS</a></li>
+                                            <li><a>JavaScript</a></li>
+                                            <li><a>HTML</a></li>
                                         </ul>
+                                    </div>
+                                    <div class="card-button">
+                                        <a href="#" target="_blank" rel="noopener">See Project</a>
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                        <!--card five-->
+                        <div class="works-item">
+                            <div class="card-img">
+                                <div class="card-detail">
+                                    <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
+                                    <div class="lang-list">
+                                        <ul>
+                                            <li><a>Ruby on rails</a></li>
+                                            <li><a>CSS</a></li>
+                                            <li><a>JavaScript</a></li>
+                                            <li><a>HTML</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-button">
+                                        <a href="#" target="_blank" rel="noopener">See Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card six-->
+                        <div class="works-item">
+                            <div class="card-img">
+                                <div class="card-detail">
+                                    <div class="card-main"><h4>Multi-Post Stories Gain+Glory</h4></div>
+                                    <div class="lang-list">
+                                        <ul>
+                                            <li><a>Ruby on rails</a></li>
+                                            <li><a>CSS</a></li>
+                                            <li><a>JavaScript</a></li>
+                                            <li><a>HTML</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-button">
+                                        <a href="#" target="_blank" rel="noopener">See Project</a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!--Contact form section-->
-        <section class="contact-me">
-            <!--contact me section main text-->
-            <div class="contactme-text">
-                <h4 class="text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
-            </div>
-            <!--form div-->
-            <div class="form-outline">
-                <form class='contactme-form' action="https://formspree.io/f/xeqwblvq" method="POST">
-                    <input type="text" id="name" name="user-name" maxlength="30" placeholder="Full Name" required/>
-                    <input type="email" id="mail" name="user-email" placeholder="Email address" required/>
-                    <textarea id="message" name="user-message" maxlength="500" placeholder="Hey I'd like to connect to..." required></textarea>
-                    <button type="submit" id="submitbutton">Get in Touch</button>
-                </form>
-            </div>
-            <!--email-->
-            <div class="email-div">
-                <p class="my-email">tanmayitanum@gmail.com</p>
-            </div>
-        </section>
+            </section>
+            <!--about me section-->
+            <section class="about-me" id="about">
+                <div class="aboutme-container">
+                    <div class="aboutme-title">
+                        <h1>About me</h1>
+                        <div class="aboutme-text">
+                            <p> I can help you build a product , feature or website Look through some of my work and<br> experience! If you like what you see and have a project you need coded,<br>
+                                don't hesitate to contact me.
+                            </p>
+                        </div>
+                        <a class='resume' href="#">Get my Resume</a>
+                    </div>
+                    <div class="aboutme-grid">
+                        <ul class="aboutmeoutline">
+                            <!--languages card-->                        
+                            <li class="aboutitem">
+                                <div class="aboutme-item">
+                                    <div class="item-head">
+                                        <img src="./media/languages-icon.svg" alt="languages-icon">
+                                    </div>
+                                    <div class="title-tags">
+                                        <h4>Languages</h4>
+                                        <div class="tags">
+                                            <ul>
+                                                <li>Javascript</li>
+                                                <li>Ruby</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!--Frameworks card-->
+                            <li class="aboutitem">
+                                <div class="aboutme-item">
+                                    <div class="item-head">
+                                        <img src="./media/frameworks-img.png" alt="frameworks-icon">
+                                    </div>
+                                    <div class="title-tags">
+                                        <h4>Frameworks</h4>
+                                        <div class="tags">
+                                            <ul>
+                                                <li>React.js</li>
+                                                <li>Ruby on Rails</li>
+                                                <li>RSpec</li>
+                                                <li>Capybara</li>
+                                                <li>Selenium</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!--Skills card-->
+                            <li class="aboutitem">
+                                <div class="aboutme-item">
+                                    <div class="item-head">
+                                        <img src="./media/skills-img.png" alt="skills-icon">
+                                    </div>
+                                    <div class="title-tags">
+                                        <h4>Skills</h4>
+                                        <div class="tags skills">
+                                            <ul>
+                                                <li>Database Management</li>
+                                                <li>Version Control</li>
+                                                <li>CLI</li>
+                                                <li>Web Development</li>
+                                                <li>API Design</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--Contact form section-->
+            <section class="contact-me" id="contact">
+                <!--contact me section main text-->
+                <div class="contactme-text">
+                    <h4 class="cont-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+                </div>
+                <!--form div-->
+                <div class="form-outline">
+                    <form class='contactme-form' action="https://formspree.io/f/xeqwblvq" method="POST">
+                        <input type="text" id="name" name="user-name" maxlength="30" placeholder="Full Name" required/>
+                        <input type="email" id="mail" name="user-email" placeholder="Email address" required/>
+                        <textarea id="message" name="user-message" maxlength="500" placeholder="Hey I'd like to connect to..." required></textarea>
+                        <button type="submit" id="submitbutton">Get in Touch</button>
+                    </form>
+                </div>
+                <!--email-->
+                <div class="email-div">
+                    <p class="my-email">tanmayitanum@gmail.com</p>
+                </div>
+            </section>
+        </div>
+
         <!--Footer section-->
         <footer class="footerbar">
             <div class="footer-socials">
