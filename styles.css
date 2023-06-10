@@ -14,6 +14,11 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+h2 {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+}
+
 /* layout for smaller screens. breakpoint: 375px */
 .wrapper {
   width: 375px;
@@ -60,6 +65,7 @@ body {
   border: 1px solid #36b37e;
   border-radius: 50%;
   margin-top: 4px;
+  transition: 0.9s ease-in-out;
 }
 
 .hamburger {
@@ -150,6 +156,7 @@ h1 {
   height: 20px;
   top: 8.96%;
   bottom: 90.73%;
+  transition: 0.2s ease-in-out;
 }
 
 .down-action {
@@ -208,7 +215,7 @@ h1 {
   width: 331px;
   height: 2972px;
   padding: 4px 2px;
-  gap: 24px;
+  gap: 32px;
   position: absolute;
   top: 226px;
 }
@@ -390,8 +397,9 @@ h1 {
   list-style-type: none;
   width: 327px;
   background: #ebf0ee;
-  border: 1px solid #c1c7d0;
+  border: 3px solid #c1c7d0;
   border-radius: 8px;
+  transition: 0.5s ease-out;
 }
 
 .aboutme-head {
@@ -522,6 +530,7 @@ input {
   height: 48px;
   border-radius: 4px;
   border: 1px solid #6b778c;
+  transition: width 0.7s;
 }
 
 textarea {
@@ -555,6 +564,7 @@ textarea::placeholder {
   color: #fff;
   font-size: 17px;
   text-align: center;
+  transition: 0.25s;
 }
 
 .email-div {
@@ -602,6 +612,30 @@ textarea::placeholder {
 
 .sentence-break {
   display: none;
+}
+
+/* animations and transitions */
+
+.resume:hover {
+  border: 2px solid #172b4d;
+  transform: scale(1.2);
+}
+
+input:hover {
+  width: 100%;
+  border-bottom: 2px solid #172b4d;
+}
+
+.aboutitem:hover {
+  border-color: #36b37e;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+#submitbutton:hover {
+  box-shadow: inset 7.5em 0 0 0 #fff;
+  color: #36b37e;
+  border: 2px solid #36b37e;
+  font-size: 20px;
 }
 
 /* breakpoint at 768px */
@@ -663,6 +697,14 @@ textarea::placeholder {
     padding: 10px 12px;
     gap: 10px;
     height: 40px;
+    transition: all 0.4s ease-out;
+  }
+
+  .navbarlist li:hover {
+    background: #36b37e;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
   }
 
   .navbarlist li a {
@@ -674,7 +716,7 @@ textarea::placeholder {
     line-height: 20px;
     color: #344563;
   }
-
+  
   .desk-headline {
     width: 100%;
     height: 756px;
@@ -819,7 +861,7 @@ textarea::placeholder {
   .works-grid {
     width: 100%;
     height: 988px;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 27% 27% 27%;
     grid-template-rows: 474px 474px;
     gap: 24px;
     top: 176px;
@@ -833,7 +875,7 @@ textarea::placeholder {
   }
 
   .works-item .card-img {
-    width: 30%;
+    width: 27%;
   }
 
   .card-detail {
@@ -973,7 +1015,7 @@ textarea::placeholder {
     justify-content: space-around;
   }
 
-  .tags ul li {
+  .tagsul li {
     height: 30px;
     padding: 8px;
     font-size: 9px;
@@ -1060,6 +1102,9 @@ textarea::placeholder {
     height: 40px;
     align-items: center;
   }
+
+  /* transitions and animations */
+
 }
 
 @media (min-width: 1028px) {
@@ -1079,6 +1124,15 @@ textarea::placeholder {
     border-radius: 8px;
     font-size: 12px;
     letter-spacing: 0.03em;
+  }
+  
+  .works-grid {
+    grid-template-columns: 27% 27% 27%;
+    grid-template-rows: 454px 454px;
+    gap: 54px;
+    top: 176px;
+    justify-content: center;
+    order: 1;
   }
 
   .card-detail {
