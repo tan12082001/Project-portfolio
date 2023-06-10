@@ -1113,13 +1113,17 @@ input:hover {
     height: 40px;
     align-items: center;
   }
-
+  
   /* transitions */
   .navbarlist li:hover {
     background: #36b37e;
     border-radius: 4px;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+  }
+
+  .social-item:hover {
+    transform: scale(1.4);
   }
 }
 
@@ -1135,7 +1139,13 @@ input:hover {
     text-align: center;
   }
 
-  /* works grid */
+  .tags li {
+    height: 40px;
+    border-radius: 8px;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+  }
+  
   .works-grid {
     grid-template-columns: 27% 27% 27%;
     grid-template-rows: 454px 454px;
@@ -1145,13 +1155,6 @@ input:hover {
     order: 1;
   }
 
-  .tags li {
-    height: 40px;
-    border-radius: 8px;
-    font-size: 12px;
-    letter-spacing: 0.03em;
-  }
-  
   .card-detail {
     height: 222px;
   }
