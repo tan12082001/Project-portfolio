@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-nav .nav-link:hover {
+  background-color: #36b37e;
+}
+.bg-image {
+  background-image: url("./desktopMedia/Header-llustration-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 195px;
+  padding-bottom: 150px;
+}
+.container p {
+  font-size: 21px;
+}
+.socials {
+  margin-left: 340px;
+}
+.contact-me {
+  width: 100%;
+  height: 100%;
+  padding: 80px 11.5%;
+  flex-direction: row;
+  gap: 24px;
+  background: url("./desktopMedia/illustration-1-contact-form-desktop.svg"),
+    url("./desktopMedia/illustration-2-contact-form-desktop@2x.svg"),
+    url("./desktopMedia/contact\ form-illustratoin-3-desktop.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom left, 280px 480px, bottom right;
+  justify-content: center;
+}
