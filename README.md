@@ -7,6 +7,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -53,6 +54,14 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://tan12082001.github.io/Project-portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- WALKTHROUGH -->
+
+## Walkthrough <a name="walkthrough"></a>
+
+- [Loom Video](https://www.loom.com/share/c2a7130771174d9ca976f6a3b4b46bec?sid=f16bf001-8982-4353-a401-f867c1200c29)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
