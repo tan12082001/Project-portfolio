@@ -137,6 +137,10 @@ Contributors for this project:
 
 - GitHub: [@fatima-najafi](https://github.com/fatima-najafi)
 
+👤 **M Jay**
+
+- GitHub: [@mj-e-boc](https://github.com/mj-e-boc)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
