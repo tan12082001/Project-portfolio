@@ -12,26 +12,44 @@
     <div class="wrapper">
         <div class="main-background">
             <!--section one toolbar-->
-            <header class="toolbar">
+			<div id="menudrop" class="menudrop"></div>
+			<div id="menu-outline" class="menu-outline">
+				<button id="closebtn">
+				  <div class='bar11'></div>
+				  <div class='bar22'></div>
+				</button>
+				<ul class='main-Menu'>
+					<li><a class='menuItem' href="#portfolio">Portfolio</a></li>
+					<li><a class='menuItem' href="#about">About</a></li>
+					<li><a class='menuItem' href="#contact">Contact</a></li>
+				</ul>
+			</div>
+            <header class="toolbar" id='header'>
                 <nav class="logo-hamburger">
-                <a href='#' class="logo"><span>T</span></a>
-                <a href='#' class="hamburger"><img src="./media/hamburger.png" alt="menu"></a>
+                    <a href='#' class="logo"><span>T</span></a>
+                    <button class="hamburger" id='hamburger'>
+                        <div class='bar1'></div>
+						<div class='bar2'></div>
+						<div class='bar3'></div>
+                    </button>
+					
                 </nav>
+                
                 <nav class="desk-navbar">
-                <ul class="navbarlist">
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+                    <ul class="navbarlist">
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </nav>
             </header>
-            <div class="desk-headline">
+            <div class="desk-headline" id='main-head-part'>
                 <!--section two headline-->
                 <section class="headline">
                     <div class="primary text">
@@ -63,7 +81,7 @@
         
         <!--works, about me and contact me div -->
         
-        <main class="works-about-contact">
+        <main class="works-about-contact" id='main-works'>
 
             <!--my recent works section-->
             <section class="works" id="portfolio">
@@ -301,5 +319,6 @@
               </div>
         </footer>
     </div>
+    <script src="fun.js"></script>
 </body>
 </html>

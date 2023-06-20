@@ -38,15 +38,115 @@ h2 {
 /* header section for mobile version */
 .logo-hamburger {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 375px;
   height: 44px;
   background: #fff;
 }
 
-/* header section for desktop version */
 .desk-navbar {
   display: none;
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  right: 24px;
+  background: none;
+  margin-top: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 100%;
+  height: 3px;
+  margin: 5px 0;
+  background: #000;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.menudrop {
+  display: none;
+  background: #fff;
+  max-width: 768px;
+  min-width: 375px;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.menu-outline {
+  display: none;
+  position: absolute;
+  background: #fff;
+  min-width: 375px;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 12px;
+  z-index: 99;
+  transition: 0.2s;
+}
+
+.main-Menu {
+  list-style-type: none;
+  padding: 92px 96px 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.menuItem {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  display: block;
+}
+
+#closebtn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  right: 24px;
+  background: none;
+  margin-top: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.bar11,
+.bar22 {
+  width: 100%;
+  height: 2px;
+  margin: 5px 0;
+  background: gray;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.bar11 {
+  transform: rotate(45deg) translate(0, 4.5px);
+}
+
+.bar22 {
+  transform: rotate(-45deg) translate(0, -5.6px);
 }
 
 /* logo-hamburger section */
@@ -66,14 +166,6 @@ h2 {
   border-radius: 50%;
   margin-top: 4px;
   transition: 0.9s ease-in-out;
-}
-
-.hamburger {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  padding: 8px;
-  right: 24px;
 }
 
 /* section 2: headline */
@@ -670,8 +762,8 @@ input:hover {
 
   .main-background {
     background: url('./desktopMedia/Header-llustration-desktop.svg');
-    background-size: cover;
-    background-position: top auto;
+    background-size: contain;
+    background-position: top center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -694,9 +786,18 @@ input:hover {
   .desk-navbar {
     width: 100%;
     height: 72px;
-    display: flex;
     position: absolute;
+    display: flex;
     justify-content: center;
+    background: transparent;
+  }
+
+  .menu-close {
+    display: none;
+  }
+
+  .main-Menu {
+    display: none;
   }
 
   .navbarlist {
@@ -1130,7 +1231,7 @@ input:hover {
 @media (min-width: 1028px) {
   .main-background {
     background: url('./desktopMedia/Header-llustration-desktop.svg');
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
   }
 
