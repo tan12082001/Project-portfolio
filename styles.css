@@ -32,7 +32,7 @@ h2 {
   flex-direction: column;
   height: 44px;
   position: fixed;
-  z-index: 999;
+  z-index: 20;
 }
 
 /* header section for mobile version */
@@ -42,6 +42,7 @@ h2 {
   width: 375px;
   height: 44px;
   background: #fff;
+  position: fixed;
 }
 
 .desk-navbar {
