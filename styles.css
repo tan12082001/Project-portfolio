@@ -852,7 +852,6 @@ input:hover {
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 12px;
-  margin-top: 12px;
 }
 
 .seelive,
@@ -1419,7 +1418,7 @@ input:hover {
   .headingpart {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    align-items: start;
   }
 
   .headingpart h3 {
@@ -1434,6 +1433,7 @@ input:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 8px;
     border-radius: 8px;
     position: static;
     margin-bottom: 10px;
