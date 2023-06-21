@@ -114,7 +114,7 @@ for (let i=0; i< projectCards.length; i++) {
                     </ul>
                 </div>
                 <div class="card-button">
-                    <a id='seeproject' href="#" target="_blank" rel="noopener">See Project</a>
+                    <button id='seeproject'>See Project</a>
                 </div>
             </div>
         </div>
