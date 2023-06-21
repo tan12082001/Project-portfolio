@@ -1417,7 +1417,7 @@ input:hover {
 
   .headingpart {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     align-items: start;
   }
 
