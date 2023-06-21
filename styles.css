@@ -1378,7 +1378,16 @@ input:hover {
 
   .pop-window {
     padding: 0.5rem 1rem 1rem 1rem;
-    width: 80%;
+    width: 66%;
+    height: 80%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #36b37e;
   }
 
   .deskimg,
@@ -1410,6 +1419,7 @@ input:hover {
   .headingpart {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .headingpart h3 {
