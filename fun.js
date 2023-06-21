@@ -133,12 +133,12 @@ for (let i = 0; i < projectCards.length; i += 1) {
 const backdrop = document.querySelector('body');
 const seeprojectbtn = document.querySelectorAll('.seeproject');
 
-for(let j = 0; j < projectCards.length; j += 1) {
-    seeprojectbtn[j].addEventListener('click', () => {
+for (let j = 0; j < projectCards.length; j += 1) {
+  seeprojectbtn[j].addEventListener('click', () => {
     const overlay = document.createElement('div');
     overlay.className = 'overlay';
     const popupOutline = document.createElement('div');
-    popupOutline.className = 'popupOutline'; 
+    popupOutline.className = 'popupOutline';
     popupOutline.innerHTML = `
         <div class="pop-window">
             <div class="imagepart">
