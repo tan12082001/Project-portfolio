@@ -230,16 +230,16 @@ const userInput = document.querySelectorAll('.local-data');
 let mydata = {
 };
 
-if(localStorage.getItem('userData')){
-	mydata = JSON.parse(localStorage.getItem('userData'));
-	for(let i=0; i<userInput.length; i++) {
-		userInput[i].value = mydata[userInput[i].name];
-	}
+if (localStorage.getItem('userData')) {
+  mydata = JSON.parse(localStorage.getItem('userData'));
+  for (let i = 0; i < userInput.length; i += 1) {
+    userInput[i].value = mydata[userInput[i].name];
+  }
 }
 
-for(let i=0; i<userInput.length; i++) {
-	userInput[i].addEventListener('input', () => {
-		mydata[userInput[i].name] = userInput[i].value;
-		localStorage.setItem('userData', JSON.stringify(mydata));
-	});
+for (let i = 0; i < userInput.length; i += 1) {
+  userInput[i].addEventListener('input', () => {
+    mydata[userInput[i].name] = userInput[i].value;
+    localStorage.setItem('userData', JSON.stringify(mydata));
+  });
 }
