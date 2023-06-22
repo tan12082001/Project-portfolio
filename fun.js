@@ -199,3 +199,29 @@ for (let j = 0; j < projectCards.length; j += 1) {
     });
   });
 }
+
+// form element-email validation
+const form = document.querySelector('form');
+const email = document.getElementById('mail');
+const error = document.createElement('span');
+
+form.appendChild(error);
+const button = form.querySelector('#submitbutton');
+form.insertBefore(error, button);
+error.classList.add('error');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (email.value.toLowerCase() !== email.value) {
+    email.classList.add('highlight');
+    error.classList.add('inaction');
+    error.textContent = 'Please Enter the email address in lowercase Format.';
+  }
+  else {
+    email.classList.remove('highlight');
+    error.classList.remove('inaction');
+    error.textContent = '';
+    form.submit();
+    form.reset();
+  }
+});

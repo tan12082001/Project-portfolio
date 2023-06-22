@@ -896,6 +896,26 @@ input:hover {
   display: none;
 }
 
+/* form validation highlight */
+.error.inaction::after {
+  content: '*';
+  color: red;
+}
+
+.error.inaction {
+  font-weight: 400;
+  line-height: 24px;
+  color: #172b4d;
+}
+
+.highlight {
+  border: 2px solid red;
+}
+
+.input:hover .highlight {
+  border-bottom: 2px solid red;
+}
+
 /* breakpoint at 768px */
 @media (min-width: 768px) {
   .wrapper {
