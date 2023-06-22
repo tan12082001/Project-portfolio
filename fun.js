@@ -204,7 +204,6 @@ for (let j = 0; j < projectCards.length; j += 1) {
 const form = document.querySelector('form');
 const email = document.getElementById('mail');
 const error = document.createElement('span');
-//const error = document.createElement('span');
 form.appendChild(error);
 const button = form.querySelector('#submitbutton');
 form.insertBefore(error, button);
