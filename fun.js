@@ -216,8 +216,7 @@ form.addEventListener('submit', (event) => {
     email.classList.add('highlight');
     error.classList.add('inaction');
     error.textContent = 'Please Enter the email address in lowercase Format.';
-  }
-  else {
+  } else {
     email.classList.remove('highlight');
     error.classList.remove('inaction');
     error.textContent = '';
