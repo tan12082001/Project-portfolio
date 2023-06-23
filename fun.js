@@ -241,5 +241,6 @@ for (let i = 0; i < userInput.length; i += 1) {
   userInput[i].addEventListener('input', () => {
     mydata[userInput[i].name] = userInput[i].value;
     localStorage.setItem('userData', JSON.stringify(mydata));
+    //localStorage.setItem('userData', JSON.stringify(mydata));
   });
 }
