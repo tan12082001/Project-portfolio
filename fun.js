@@ -29,40 +29,46 @@ menu.addEventListener('click', closeMenu);
 // creating an Array of objects with content.
 const projectCards = [
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    heading: 'Keeping track of hundreds of components',
-    languages: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    title: 'WOS Concert Webpage',
+    heading: 'A Concert webpage that gives you details.',
+    languages: ['CSS', 'JavaScript', 'HTML'],
     skills: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-    mobile_description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s<br><br> with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    desktop_description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
-    desktop_img: './media/SnapshootPortfolio.png',
-    mobile_img: './media/mobile-popup-img.png',
-    seelive: 'https://github.com/tan12082001/Project-portfolio',
-    seesource: 'https://github.com/tan12082001/Project-portfolio',
+    mobile_description: 'WOS concert webpage is a webpage created as a part of Microverse full stack course curriculum. This webpage gives you WOS band concert details. The webpage is designed on JavaScript majorly and includes HTML and CSS. This webpage is divided into five parts where header, main and footer consists these parts. the header has two blocks, one is head bar with socials and the navigation bar with webpage navigations. The main sections has main events grid and then the featured artists block is dynamically created.',
+    desktop_description: 'WOS concert webpage is a webpage created as a part of Microverse full stack course curriculum. This webpage gives you WOS band concert details. The webpage is designed on JavaScript majorly and includes HTML and CSS. This webpage is divided into five parts where header, main and footer consists these parts. the header has two blocks, one is head bar with socials and the navigation bar with webpage navigations. The main sections has main events grid and then the featured artists block is dynamically created.',
+    desktop_img: './concertwebpage.png',
+    mobile_img: './wosmobileimage.png',
+    cardtile: './concertwebpage.png',
+    cardtilealt: 'WOS consert page',
+    seelive: 'https://tan12082001.github.io/Project-Capstone-1/',
+    seesource: 'https://github.com/tan12082001/Project-Capstone-1',
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    heading: 'Keeping track of hundreds of components',
-    languages: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    title: 'Awesome Books Page',
+    heading: 'A Book Name Library, you can easily remeber the book names now',
+    languages: ['CSS', 'JavaScript', 'HTML'],
     skills: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-    mobile_description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s<br><br> with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    desktop_description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
-    desktop_img: './media/SnapshootPortfolio.png',
-    mobile_img: './media/mobile-popup-img.png',
-    seelive: 'https://github.com/tan12082001/Project-portfolio',
-    seesource: 'https://github.com/tan12082001/Project-portfolio',
+    mobile_description: 'Awesome Books is a webpage created for education purpose. In this webpage you can add a book name and author name after which this will store them in a local storage and makes them available for you even when you refresh the page. You can also delete a book from the library if you do not want to see it anymore. These adding and deleting features are created and implemented using JavaScript. In this webpage you can also see single page apps implementation.',
+    desktop_description: 'Awesome Books is a webpage created for education purpose. In this webpage you can add a book name and author name after which this will store them in a local storage and makes them available for you even when you refresh the page. You can also delete a book from the library if you do not want to see it anymore. These adding and deleting features are created and implemented using JavaScript. In this webpage you can also see single page apps implementation.',
+    desktop_img: './awesomebookswebpage.png',
+    mobile_img: './awesomebookswebpage.png',
+    cardtile: './awesomebookswebpage.png',
+    cardtilealt: 'Awesomebooks page',
+    seelive: 'https://tan12082001.github.io/Project-AwesomeBooks/',
+    seesource: 'https://github.com/tan12082001/Project-AwesomeBooks',
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    heading: 'Keeping track of hundreds of components',
-    languages: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    title: 'To-Do-List Tasks Page',
+    heading: 'You can Add to-do\'s and successfully do them',
+    languages: [ 'CSS', 'JavaScript', 'HTML'],
     skills: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-    mobile_description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s<br> with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    desktop_description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
-    desktop_img: './media/SnapshootPortfolio.png',
-    mobile_img: './media/mobile-popup-img.png',
-    seelive: 'https://github.com/tan12082001/Project-portfolio',
-    seesource: 'https://github.com/tan12082001/Project-portfolio',
+    mobile_description: 'To-Do-List webpage is a web app where you can add new tasks to do and keep them track like delete them or uncheck them or delete a few completed. This Webpage uses localStorage from the devtools so you will be able to see the tasks you added even when the webpage is reloaded. You can also edit a task and update the task in storage. You can delete specific tasks or the ones you are already done with the clear all checked button when they are checked.',
+    desktop_description: 'To-Do-List webpage is a web app where you can add new tasks to do and keep them track like delete them or uncheck them or delete a few completed. This Webpage uses localStorage from the devtools so you will be able to see the tasks you added even when the webpage is reloaded. You can also edit a task and update the task in storage. You can delete specific tasks or the ones you are already done with the clear all checked button when they are checked.',
+    desktop_img: './todolistwebpage.png',
+    mobile_img: './todolistwebpage.png',
+    cardtile: './todolistwebpage.png',
+    cardtilealt: 'To-Do-List page',
+    seelive: 'https://tan12082001.github.io/Project-To-Do-List/',
+    seesource: 'https://github.com/tan12082001/Project-To-Do-List',
   },
   {
     title: 'Multi-Post Stories Gain+Glory',
@@ -109,6 +115,7 @@ for (let i = 0; i < projectCards.length; i += 1) {
   cards.innerHTML += `
     <div class="works-item">
         <div class="card-img">
+            <img class='cardtile-img' src='${projectCards[i].cardtile}' alt='${projectCards[i].cardtilealt}'/>
             <div class="card-detail">
                 <div class="card-main"><h4>${projectCards[i].title}</h4></div>
                 <div class="lang-list">
@@ -116,7 +123,6 @@ for (let i = 0; i < projectCards.length; i += 1) {
                         <li><a>${projectCards[i].languages[0]}</a></li>
                         <li><a>${projectCards[i].languages[1]}</a></li>
                         <li><a>${projectCards[i].languages[2]}</a></li>
-                        <li><a>${projectCards[i].languages[3]}</a></li>
                     </ul>
                 </div>
                 <div class="card-button">

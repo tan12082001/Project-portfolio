@@ -886,7 +886,7 @@ input:hover {
   outline: none;
   cursor: pointer;
   appearance: none;
-  color: #fff;
+  color: #000;
 }
 
 .deskimg,
@@ -914,6 +914,12 @@ input:hover {
 
 .input:hover .highlight {
   border-bottom: 2px solid red;
+}
+
+.cardtile-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* breakpoint at 768px */
