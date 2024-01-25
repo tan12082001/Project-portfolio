@@ -59,7 +59,7 @@ const projectCards = [
   {
     title: 'To-Do-List Tasks Page',
     heading: 'You can Add to-do\'s and successfully do them',
-    languages: [ 'CSS', 'JavaScript', 'HTML'],
+    languages: ['CSS', 'JavaScript', 'HTML'],
     skills: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     mobile_description: 'To-Do-List webpage is a web app where you can add new tasks to do and keep them track like delete them or uncheck them or delete a few completed. This Webpage uses localStorage from the devtools so you will be able to see the tasks you added even when the webpage is reloaded. You can also edit a task and update the task in storage. You can delete specific tasks or the ones you are already done with the clear all checked button when they are checked.',
     desktop_description: 'To-Do-List webpage is a web app where you can add new tasks to do and keep them track like delete them or uncheck them or delete a few completed. This Webpage uses localStorage from the devtools so you will be able to see the tasks you added even when the webpage is reloaded. You can also edit a task and update the task in storage. You can delete specific tasks or the ones you are already done with the clear all checked button when they are checked.',
