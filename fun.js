@@ -119,7 +119,7 @@ const projectCards = [
 const cards = document.querySelector('.works-grid');
 for (let i = 0; i < projectCards.length; i += 1) {
   cards.innerHTML += `
-    <div class="works-item">
+    <div class="works-item card-animation">
         <div class="card-img">
             <img class='cardtile-img' src='${projectCards[i].cardtile}' alt='${projectCards[i].cardtilealt}'/>
             <div class="card-detail">
@@ -255,3 +255,34 @@ for (let i = 0; i < userInput.length; i += 1) {
     localStorage.setItem('userData', JSON.stringify(mydata));
   });
 }
+
+const text = document.getElementById('text-animation');
+const cardsAnimation = document.querySelectorAll('.card-animation');
+const animationDelay = 4;
+const textAnimationDelay = 8;
+
+function addAnimationToCards(card) {
+  card.style.animation = `an 1s ease-out 1 both ${animationDelay * 1}ms`;
+  card.style.opacity = 1;
+}
+
+function addAnimationToChars(text) {
+  text.style.animation = `an 1s ease-out 1 both ${textAnimationDelay * 1}ms`;
+  text.style.opacity = 1;
+}
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      addAnimationToCards(entry.target);
+      observer.unobserve(entry.target);
+      addAnimationToChars(entry.target);
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+cardsAnimation.forEach((card) => {
+  observer.observe(card);
+});
+
+observer.observe(text);
